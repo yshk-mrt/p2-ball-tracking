@@ -6,7 +6,7 @@ This project aimed at solving [Continuous control project at Udacity/Deep-Reinfo
 
 The objective of the project is to train 20 copies of the same agent so that each agent with a double-jointed arm can maintain its position at the target location for as many time steps as possible. The agents must get an average score of +30 over 100 consecutive episodes, and over all agents.
 
-![Trained Agent](files/results/track_s.gif?raw=true "Trained Agents")
+![Trained Agent](./results/track_s.gif?raw=true "Trained Agents")
 
 A reward is provided for each step that the agent's hand is in the goal location. The original project page describes the reward is +0.1, but it seems +0.04 is the actual reward, and the number of steps in an episode is 1000, which makes the maximum reward 40.0.
 
